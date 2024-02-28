@@ -31,10 +31,12 @@ p {
 
 .navbar {
     width: 1400px;
+    height: 70px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
 }
+
 
 .icon i,
 .user i {
@@ -96,6 +98,10 @@ p {
     background: linear-gradient(180deg, rgba(255, 152, 0, 1) 0%, rgba(255, 87, 34, 1) 100%);
 }
 
+.container-search button:hover {
+    background: linear-gradient(180deg, rgb(218, 158, 68) 0%, rgb(240, 92, 48) 100%);
+}
+
 .wrap-content {
     width: 1200px;
     margin: 80px auto;
@@ -117,12 +123,12 @@ table {
 th {
     color: white;
     background-color: #333;
-    padding: 10px;
+    padding: 20px;
     text-align: left;
 }
 
 td {
-    padding: 10px;
+    padding: 20px;
     color: #CCCCCC;
     border-bottom: 1px solid #444;
 }
@@ -170,7 +176,7 @@ tr:hover {
     border-radius: 0 !important;
     background-color: #ff5722 !important;
     color: white !important;
-    padding: 10px 15px;
+    padding: 10px 15px !important;
 }
 
 .btn:hover {
